@@ -1,0 +1,126 @@
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.container{
+    border: solid 0px black;
+    height:100%;
+    width:100%;
+    background: none;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    /* max-height:100px; */
+    margin-top: 0;
+}
+
+.menu{
+    border:solid 0px black;
+    margin-top:0px;
+}
+.menu h2{
+    font-size:80px;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    margin-top:100px;
+    font-weight: lighter;
+    margin-left:500px;
+    /* text-align: center; */
+    /* margin:100px auto; */
+}
+.menu input{
+    height:40px;
+    width:80%;
+    max-width:500px;
+    border-radius:20px;
+    margin-left:390px;
+    margin-top: 30px;
+    display: block;
+}
+.search input::placeholder{
+    margin-left:200px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+.search  img{
+    height:20px;
+    width:20px;
+    margin-left:410px;
+    position: absolute;
+    margin-top:-30px;
+}
+.cont{
+    border:solid 0px black;
+    height:575px;
+    width:30%;
+    background-repeat: no-repeat !important;
+}
+
+/* Styles for the gallery modal */
+button{
+    height:40px;
+    width:50%;
+    margin-left:250%;
+    background: rgb(51, 49, 49);
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-top:200px;
+    color:#fff;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left:90%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height:100vh;
+    overflow-y: auto;
+}
+
+.gallery-images img{
+    display: block;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    width:100%;
+   
+}
+.gallery-images img{
+    height:100%;
+    width:100%;
+}
+
+.show {
+    display: block !important;
+    background-repeat: no-repeat !important;
+}
+
+
+
+

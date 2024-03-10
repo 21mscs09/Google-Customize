@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Customize</title>
+    <link rel="stylesheet" href="./Customize.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>Google</h2>
+            <div class="search">
+                <input type="text" name="search" placeholder="Search Google or type URL">
+                <img src="./Images/search.png" alt="">
+            </div>
+            <div class="cont">
+                <button id="customizeButton" onclick="toggleGallery()">Customize</button>
+            </div>
+        </div>
+
+        <div id="galleryModal" class="modal">
+            <div class="modal-content">
+                <!-- Gallery images -->
+               <div class="gallery-images">
+                <img src="./Images/tr7.jpg" alt="" onclick="changeBackground('./Images/tr7.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr3.jpg" alt="" onclick="changeBackground('./Images/tr3.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr2.jpg" alt="" onclick="changeBackground('./Images/tr2.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr4.jpg" alt="" onclick="changeBackground('./Images/tr4.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr5.jpg" alt="" onclick="changeBackground('./Images/tr5.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr6.jpg" alt="" onclick="changeBackground('./Images/tr6.jpg')" ondblclick="closeModal()">
+                <img src="./Images/tr1.jpg" alt="" onclick="changeBackground('./Images/tr1.jpg')" ondblclick="closeModal()">
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Customize.js"></script>
+</body>
+</html>
